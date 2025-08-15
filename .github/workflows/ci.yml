@@ -33,8 +33,11 @@ jobs:
           git config user.email "actions@github.com"
           git add model.pkl
           git commit -m "Update model.pkl"
-          git 
+          git commit -m "Update model.pkl" || true
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+
           
+
       - name: Deployment info
         run: |
           echo "Code pushed to main branch. Streamlit Cloud will
