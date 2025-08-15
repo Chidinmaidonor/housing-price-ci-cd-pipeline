@@ -32,7 +32,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add model.pkl
-          git commit -m "Update model.pkl"
+        
           
 
           git commit -m "Update model.pkl" || echo "No changes to commit"
