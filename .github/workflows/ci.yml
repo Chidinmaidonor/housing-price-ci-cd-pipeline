@@ -36,8 +36,8 @@ jobs:
           
 
           git commit -m "Update model.pkl" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
-
+       
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Chidinmaidonor/housing-price-ci-cd-pipeline.git HEAD:main
           
 
       - name: Deployment info
