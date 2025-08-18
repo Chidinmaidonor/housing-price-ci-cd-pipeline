@@ -16,6 +16,7 @@ It demonstrates the full workflow of:
 🚀 Demo
 
 🔗 Live App:  https://housing-price-ci-cd-pipeline-8gnc4ewn2fnmzu6nov3y9l.streamlit.app/
+
 📂 Tutorial / Walkthrough:  https://youtu.be/39OSwfOd35k 
                             https://youtu.be/JXRsqMxZJfU
 
@@ -32,12 +33,15 @@ It demonstrates the full workflow of:
 🛠️ Installation
 
 - git clone https://github.com/Chidinmaidonor/housing-price-ci-cd-pipeline.git
+  
 cd house-price-prediction
 
 - Create virtual environment & install dependencies
+  
   pip install -r requirements.txt
   
 - Run Locally : Download Visual Studio Code
+  
   python app.py
 
 📊 Usage
@@ -49,8 +53,11 @@ cd house-price-prediction
 -Get an estimated House Price instantly.
 
 (Rooms: 4
+
 Area: 2500 sqft
+
 Location: Suburban
+
 Predicted Price: $420,000
 )
 
