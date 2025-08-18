@@ -4,16 +4,16 @@ import pandas as pd
 from preprocessing import preprocess
 
 def predict(new_data):
-    # Load model
+
     model = joblib.load("model.pkl")
 
-    # Convert input data to DataFrame
+
     df = pd.DataFrame([new_data])
 
-    # Preprocess input
+ 
     df = preprocess(df)
 
-    # Predict
+ 
     prediction = model.predict(df)
     return prediction[0]
 
